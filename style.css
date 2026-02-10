@@ -1,0 +1,212 @@
+*  Global Reset and Body */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===============================
+   Navbar
+================================= */
+.Appetizers {
+  background: #00796b;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.Appetizers ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  gap: 25px;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.Appetizers ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.Appetizers ul li a:hover {
+  background: #004d40;
+  color: #e0f7fa;
+  transform: scale(1.05);
+}
+
+/* ===============================
+   Smooth Scroll for Navbar Links
+================================= */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===============================
+   Sections
+================================= */
+.section {
+  background: rgba(255, 255, 255, 0.95);
+  margin: 50px auto;
+  padding: 50px 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 900px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.section:hover {
+  transform: translateY(-5px);
+}
+
+
+/* ===============================
+   About Section
+================================= */
+.Appetizers-section h2 {
+  color: #00796b;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.Appetizers-section p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* ===============================
+   Work Section
+================================= */
+.MainCourses-section h2,
+.MainCourses-section h3 {
+  color: #00796b;
+  margin-bottom: 15px;
+}
+
+.MainCourses-section h2 {
+  font-size: 2rem;
+}
+
+.tech-list {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.tech-list li {
+  background: #00796b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.tech-list li:hover {
+  background: #004d40;
+  transform: translateY(-3px);
+}
+
+
+
+/* ===============================
+   Resume Section
+================================= */
+.Desserts-section h2 {
+  color: #00796b;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.Desserts-section a {
+  color: #00796b;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.Desserts-section a:hover {
+  text-decoration: underline;
+  color: #004d40;
+}
+
+
+
+/* ===============================
+   Contact Section
+================================= */
+.contactinfo-section h2 {
+  color: #00796b;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.contactinfo-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+.contactinfo-section .form-row {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  max-width: 820px;
+}
+
+.
+
+/* ===============================
+   Footer
+================================= */
+.footer {
+  background-color: #00796b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer .social-icons {
+  margin-top: 10px;
+}
+
+.footer .social-icons a {
+  color: #ffffff;
+  margin: 0 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.footer .social-icons a:hover {
+  color: #e0f7fa;
+  text-decoration: underline;
+  border-right: 2px solid #ccc;
+}
+
+
